@@ -1,4 +1,3 @@
-
 import pandas
 from keras.models import Sequential
 from keras.layers import Dense
@@ -17,7 +16,7 @@ class lstm:
         dataset = dataframe.values
         # split into input (X) and output (Y) variables
 
-        data = {"Frequency": 25,
+        data = {"Frequency": 100,
                 "BlockFrequency": 100,
                 "Runs": 100,
                 "LongestRunOfOnes": 128,
